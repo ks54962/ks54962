@@ -1,50 +1,42 @@
-# Karthik Srinivasan  
-### Data Scientist | Product Analytics | Behavioral Economics  
+# Karthik Srinivasan
+### Product Data Scientist | Behavioral Economics | Forecasting
 
-I build data products that turn human behavior into measurable business decisions.
+I build data systems that translate consumer behavior into measurable product decisions.
 
-Currently working in demand forecasting at PepsiCo, where I own long-range forecasting workflows that inform cross-functional planning across commercial, finance, and operations. Alongside my role, I build product-focused data science projects centered on experimentation, recommender systems, and scalable analytics systems.
-
-MS in Applied Data Science | BA in Behavioral Economics  
-Based in NYC  
-
----
-
-## 🔍 Focus Areas
-
-- 📈 Forecasting & time-series modeling  
-- 🎧 Recommender systems & personalization  
-- 🧪 Experimentation & causal inference  
-- 📊 Product analytics & KPI design  
-- 🧠 Behavioral economics in decision systems  
----
-## 🚀 Featured Projects
-
-### 🎧 Spotify Session Engagement Modeling  
-A product analytics study modeling how early override behavior predicts listening session depth and reframes skip as engagement calibration rather than dissatisfaction.
-
-- Constructed session-level engagement model from 240K+ Spotify listening events
-- Engineered early-session calibration metrics (override behavior, recency, novelty) to predict session depth
-- Demonstrated that active tuning in first 3 tracks increases probability of long sessions (~4–5pp lift)
-
-**Tech:** Python, Pandas, SQL, scikit-learn  
+MS in Applied Data Science.  
+Currently working in forecasting at PepsiCo.  
+Based in NYC.
 
 ---
 
-### 📈 Demand Forecasting Simulation  
-loremipusm lorem ipusmloremipusm lorem ipusmloremipusm lorem ipusmloremipusm lorem ipusm
+## Selected Work
 
-- loremipusm lorem ipusmloremipusm lorem ipusmloremipusm lorem ipusm 
-- loremipusm lorem ipusmloremipusm lorem ipusmloremipusm lorem ipusm 
-- loremipusm lorem ipusmloremipusm lorem ipusm  
-- loremipusm lorem ipusmloremipusm lorem ipusm  
+### Spotify Session Engagement Modeling
+Modeled how early-session override behavior predicts listening depth and reframes skip behavior as engagement calibration.
 
-**Tech:** loremipusm lorem ipusmloremipusm lorem ipusm  
+- Built session-level model from 240K+ listening events  
+- Engineered novelty, recency, and override calibration features  
+- Identified ~4–5pp increase in long-session probability associated with early active tuning  
+- Designed engagement metric aligning behavioral theory with product impact  
 
+**Tech:** Python, SQL, scikit-learn  
 
-## 🛠 Technical Stack
+---
 
-**Languages:** Python, SQL  
-**Libraries:** Pandas, NumPy, scikit-learn, XGBoost, Matplotlib  
-**Concepts:** Forecasting, experimentation, causal inference, recommender systems  
-**Tools:** Git, Jupyter, Power BI  
+### Demand Forecasting & Decision Simulation
+Built a multi-week forecasting system modeling demand under trend, seasonality, and promotional shocks.
+
+- Engineered features from growth trajectories and external demand drivers  
+- Compared baseline vs ML approaches across bias / accuracy tradeoffs  
+- Designed decision-layer adjustments to simulate business override behavior  
+- Evaluated forecast impact under operational constraints  
+
+**Tech:** Python, XGBoost, time-series modeling  
+
+---
+
+## Areas of Interest
+Recommender Systems · Experimentation · Product Analytics · Causal Inference · Forecasting  
+
+## Stack
+Python · SQL · Pandas · NumPy · scikit-learn · XGBoost
