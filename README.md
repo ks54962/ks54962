@@ -11,7 +11,7 @@ Based in NYC.
 
 ## Selected Work
 
-### Spotify Session Engagement Modeling
+### 🎧 [Spotify Session Engagement Modeling](https://github.com/ks54962/modeling-spotify-session-survival)
 Modeled how early-session override behavior predicts listening depth and reframes skip behavior as engagement calibration.
 
 - Built session-level model from 240K+ listening events  
