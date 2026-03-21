@@ -20,7 +20,7 @@ Modeled early-session user behavior to predict listening depth, reframing skip b
 
 ---
 
-### [NYC Taxi Demand Forecasting](https://github.com/ks54962/nyc-taxi-demand-forecasting)
+### [Demand Forecasting with Macroeconomic Signals (NYC Taxi Data)](https://github.com/ks54962/nyc-taxi-demand-forecasting)
 Built a large-scale demand forecasting pipeline on 475M+ NYC taxi trips, evaluating the impact of macroeconomic signals.
 
 - Aggregated raw trip data using DuckDB to construct monthly demand time series
