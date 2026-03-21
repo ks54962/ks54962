@@ -25,8 +25,8 @@ Built a large-scale demand forecasting pipeline on 475M+ NYC taxi trips, evaluat
 
 - Aggregated raw trip data using DuckDB to construct monthly demand time series
 - Engineered lag-based features (lag_1, lag_12) and integrated FRED macro data
-- Benchmarked regression vs. XGBoost, improving MAPE from 7.87% → 6.72%
-- Found macro signals add limited linear value but improve performance via nonlinear interactions
+- Benchmarked linear vs nonlinear models, improving forecast accuracy (MAPE 7.87% → 6.72%)
+- Found macroeconomic signals improve forecasts primarily through nonlinear interactions
 
 **Tech:** Python, SQL, Pandas, scikit-learn, XGBoost,
 
