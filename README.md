@@ -1,42 +1,39 @@
 # Karthik Srinivasan
 ### Product Data Scientist | Behavioral Economics | Forecasting
 
-I build data systems that translate consumer behavior into measurable product decisions.
-
-MS in Applied Data Science.  
-Currently working in forecasting at PepsiCo.  
-Based in NYC.
+Turning behavioral data into actionable insights on user engagement and demand.
 
 ---
 
 ## Selected Work
+End-to-end data science projects focused on user behavior modeling and demand forecasting.
 
-### 🎧 [Spotify Session Engagement Analysis](https://github.com/ks54962/modeling-spotify-engagement-analysis)
-Modeled how early-session override behavior predicts listening depth and reframes skip behavior as engagement calibration.
+### [Spotify Session Engagement Analysis](https://github.com/ks54962/modeling-spotify-engagement)
+Modeled early-session user behavior to predict listening depth, reframing skip behavior as engagement calibration.
 
 - Built session-level dataset from 240K+ listening events (~11K sessions)
-- Engineered early-session features capturing intervention, novelty, and recency  
-- Found that sessions with early user intervention are more likely to become long sessions  
-- Framed early skip behavior as active calibration rather than dissatisfaction  
+- Engineered early-session features (intervention, novelty, recency)
+- Modeled session survival using logistic regression
+- Found early user intervention increases likelihood of long sessions
 
-**Tech:** Python, SQL, scikit-learn  
+**Tech:** Python, Pandas, scikit-learn  
 
 ---
 
-### Demand Forecasting & Decision Simulation
-Built a multi-week forecasting system modeling demand under trend, seasonality, and promotional shocks.
+### [Demand Forecasting & Macroeconomic Signal Modeling](https://github.com/ks54962/nyc-taxi-demand-forecasting)
+Built a large-scale demand forecasting pipeline on 100M+ NYC taxi trips, evaluating the impact of macroeconomic signals.
 
-- Engineered features from growth trajectories and external demand drivers  
-- Compared baseline vs ML approaches across bias / accuracy tradeoffs  
-- Designed decision-layer adjustments to simulate business override behavior  
-- Evaluated forecast impact under operational constraints  
+- Aggregated raw trip data using DuckDB to construct monthly demand time series
+- Engineered lag-based features (lag_1, lag_12) and integrated FRED macro data
+- Benchmarked regression vs. XGBoost, improving MAPE from 7.87% → 6.72%
+- Found macro signals add limited linear value but improve performance via nonlinear interactions
 
-**Tech:** Python, XGBoost, time-series modeling  
+**Tech:** Python, SQL, Pandas, scikit-learn, XGBoost,
 
 ---
 
 ## Areas of Interest
-Recommender Systems · Experimentation · Product Analytics · Causal Inference · Forecasting  
+Product Analytics · Recommender Systems · Experimentation · Causal Inference · Forecasting
 
 ## Stack
-Python · SQL · Pandas · NumPy · scikit-learn · XGBoost
+Python · SQL · Pandas · NumPy · scikit-learn · XGBoost · DuckDB
