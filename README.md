@@ -14,10 +14,10 @@ Based in NYC.
 ### 🎧 [Spotify Session Engagement Modeling](https://github.com/ks54962/modeling-spotify-session-survival)
 Modeled how early-session override behavior predicts listening depth and reframes skip behavior as engagement calibration.
 
-- Built session-level model from 240K+ listening events  
-- Engineered novelty, recency, and override calibration features  
-- Identified ~4–5pp increase in long-session probability associated with early active tuning  
-- Designed engagement metric aligning behavioral theory with product impact  
+- Built session-level dataset from 240K+ listening events (~11K sessions)
+- Engineered early-session features capturing intervention, novelty, and recency  
+- Found that sessions with early user intervention are more likely to become long sessions  
+- Framed early skip behavior as active calibration rather than dissatisfaction  
 
 **Tech:** Python, SQL, scikit-learn  
 
