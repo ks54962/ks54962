@@ -1,5 +1,5 @@
 # Karthik Srinivasan
-### Product Data Scientist | Behavioral Economics | Forecasting
+### Data Scientist | Behavioral Economics | Forecasting
 
 Turning behavioral data into actionable insights on user engagement and demand.
 
